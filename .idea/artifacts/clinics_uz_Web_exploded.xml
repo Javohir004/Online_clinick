@@ -16,6 +16,8 @@
           <element id="library" level="project" name="Maven: com.itextpdf:layout:7.1.15" />
           <element id="library" level="project" name="Maven: com.sun.istack:istack-commons-runtime:4.1.1" />
           <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.6.2" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.4" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
           <element id="library" level="project" name="Maven: io.micrometer:micrometer-commons:1.12.7" />
           <element id="library" level="project" name="Maven: io.micrometer:micrometer-observation:1.12.7" />
           <element id="library" level="project" name="Maven: io.smallrye:jandex:3.1.2" />
@@ -29,6 +31,7 @@
           <element id="library" level="project" name="Maven: jakarta.transaction:jakarta.transaction-api:2.0.1" />
           <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:4.0.0" />
           <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.14.15" />
           <element id="library" level="project" name="Maven: org.antlr:antlr4-runtime:4.13.0" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.68" />

@@ -68,5 +68,3 @@ Frontend qismi backend bilan **to‘g‘ridan-to‘g‘ri integratsiya qilingan*
 * HTML / CSS
 * PostgreSQL
 * Maven / Gradle
-
----

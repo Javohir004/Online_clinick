@@ -1,70 +1,71 @@
 # 🏥 Online Clinic Management System
-**Online Clinic** — bu klinika faoliyatini avtomatlashtirish uchun ishlab chiqilgan **veb-ilova** bo‘lib, foydalanuvchilarga shifokorlar bilan onlayn tarzda qabulga yozilish, xizmatlar bilan tanishish va murojaatlarni boshqarish imkonini beradi.
 
-Loyiha **Spring MVC** arxitekturasi asosida yozilgan bo‘lib, **JSP orqali frontend qismi ham to‘liq amalga oshirilgan**. Project **portfolio (CV)** uchun mo‘ljallangan.
+**Online Clinic** is a web application designed to automate clinic operations, allowing users to book appointments with doctors online, browse available services, and manage their requests.
 
----
-
-## 🎯 Asosiy imkoniyatlar
-
-* Onlayn qabulga yozilish
-* Shifokorlar va xizmatlar ro‘yxatini ko‘rish
-* Qabul jadvalini boshqarish
-* Foydalanuvchi murojaatlari bilan ishlash
-* Admin tomonidan klinika ma’lumotlarini boshqarish
+Built with **Spring MVC** architecture, with the frontend fully implemented using **JSP**. Developed as a portfolio project.
 
 ---
 
-## 👥 Rollar va vakolatlar
+## 🎯 Features
 
-Tizimda **3 ta asosiy rol** mavjud:
-
-### 👤 User (Bemor)
-
-* Klinikadagi xizmatlar va shifokorlarni ko‘rish
-* Shifokorga qabulga yozilish
-* O‘z qabul tarixini ko‘rish
-* Shaxsiy ma’lumotlarini boshqarish
+- Online appointment booking
+- Browse doctors and available services
+- Appointment schedule management
+- User request and complaint handling
+- Admin panel for clinic data management
+- Email notifications for appointment confirmations
 
 ---
+
+## 👥 Roles
+
+### 👤 User (Patient)
+- Browse clinic services and doctors
+- Book appointments with doctors
+- View personal appointment history
+- Manage personal profile
 
 ### 👨‍⚕️ Doctor
+- View assigned appointment schedule
+- Manage patient list
+- Update appointment status
 
-* O‘ziga biriktirilgan qabul jadvalini ko‘rish
-* Bemorlar ro‘yxati bilan ishlash
-* Qabul holatini yangilash
-
----
-
-### 🛠 Admin
-
-* Shifokorlar qo‘shish va tahrirlash
-* Xizmatlar va narxlarni boshqarish
-* Qabul jadvalini nazorat qilish
-* Foydalanuvchilar bilan ishlash
+### 🛠️ Admin
+- Add and edit doctors
+- Manage services and pricing
+- Monitor appointment schedules
+- Manage users
 
 ---
 
-## 🧱 Arxitektura
+## 🏗️ Architecture — Spring MVC
 
-Loyiha **Spring MVC (Model–View–Controller)** tamoyiliga asoslangan:
+The project follows the **Model–View–Controller** pattern:
 
-* **Model** – Entity va DTO’lar
-* **View** – JSP sahifalar (frontend)
-* **Controller** – so‘rovlarni boshqarish
+| Layer | Description |
+|---|---|
+| Model | Entities and DTOs |
+| View | JSP pages (server-side rendered frontend) |
+| Controller | Handles HTTP requests and business logic |
 
-Frontend qismi backend bilan **to‘g‘ridan-to‘g‘ri integratsiya qilingan**.
+Frontend and backend are fully integrated — no separate frontend framework needed.
 
 ---
 
-## 🛠 Ishlatilgan texnologiyalar
+## 🛠️ Tech Stack
 
-* Java
-* Spring MVC
-* Spring Data JPA
-* Hibernate
-* JSP (Frontend)
-* JSTL
-* HTML / CSS
-* PostgreSQL
-* Maven / Gradle
+| Category | Technologies |
+|---|---|
+| Language | Java |
+| Framework | Spring MVC, Spring Data JPA |
+| ORM | Hibernate |
+| Frontend | JSP, JSTL, HTML, CSS |
+| Database | PostgreSQL |
+| Build | Maven / Gradle |
+| Notifications | JavaMail API |
+
+---
+
+## 📫 Contact
+
+- GitHub: [Javohir004](https://github.com/Javohir004)
